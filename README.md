@@ -1,24 +1,19 @@
-# README
+# Expense_app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+簡易な経費精算アプリを作成予定です。
+出張した社員が交通費やその他費用を申請し、支払権限のある社員が承認します。
+申請した費用は勘定科目ごとに管理され、経理ソフト連携用のcsvファイルを出力できます。
 
-Things you may want to cover:
+# 環境
+* ruby 2.6.3
+* Rails 5.1.7
 
-* Ruby version
+# 作成予定機能
 
-* System dependencies
+* 交通費精算
 
-* Configuration
+* 申請・承認機能
 
-* Database creation
+* csv出力（経理ソフト連携用）
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* 他
